@@ -1,0 +1,657 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+ul{margin-bottom: 0}
+.head{
+    width: 100%;
+    height: 90px;
+    background: #fff;
+}
+.header{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+.img1{
+    float: left;
+    width: 360px;
+    height: 90px;
+    line-height: 90px;
+}
+.img2{
+    float: right;
+    width: 248px;
+    height: 90px;
+    line-height: 90px;
+}
+.head_top{
+    width:100%;
+    height: 40px;
+    background: red;
+}
+.header_top{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.header_top ul{
+    width: 750px;
+    height: 40px;
+}
+.header_top ul li{
+    float: left;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.header_top ul li a{
+    color: #fff; 
+}
+.input{
+    display: inline-block;
+    width: 250px;
+    height: 25px;
+    background: #fff;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+.input_text{
+    width: 224px;
+    height: 25px;
+    border:0;
+}
+/*轮播图*/
+.item img{
+    width: 100%;
+}
+.yuanquan li{
+    border:1px solid red;
+}
+.yuanquan .active{
+    background: red;
+}
+
+/*缩略图*/
+.content{
+    width: 100%;
+    height: 247px;
+    background: #fff;
+    margin-top:30px; 
+}
+.border1{
+    border:0;
+}
+.caption h4{
+    color: #dd5a30;
+    text-align: center;
+}
+.caption p{
+   text-align: center; 
+}
+
+/*成功案例*/
+.content_example{
+    width: 100%;
+    height: 627px;
+    background: #e6e3e2;
+}
+.example{
+    width: 1200px;
+    height: 627px;
+    margin: 0 auto;
+}
+.content_example_top{
+    width: 1200px;
+    height: 165px;
+    text-align: center;
+    padding-top: 40px;
+}
+.content_example_top p{
+    color: red;
+    font-size: 24px;
+}
+.content_example_top p span{
+    color: #666;
+}
+.top_xian{
+    width: 1200px;
+    height: 28px;
+}
+.content_example_top .top_xian span{
+    display: block;
+    width: 83px;
+    height: 8px;
+    background: #a49d9a;
+    margin:10px auto;
+}
+.content_example_down{
+    width: 1200px;
+    height: 462px;
+}
+.content_example_down ul li{
+    float: left;
+}
+.content_example_down ul li.img01{
+    margin-bottom: 10px;
+}
+.content_example_down ul li.img02{
+    margin-right: 6px;
+}
+/*新闻资讯*/
+.content_news{
+    width: 1200px;
+    height: 442px;
+    margin: 0 auto;
+}
+.content_news_down{
+    width: 1200px;
+    height: 277px;
+}
+.content_news_down ul li{
+    float: left;
+    width: 400px;
+    height: 277px;
+}
+.news01_tit{
+    width: 360px;
+    height: 50px;
+    border-bottom: 1px solid #333;
+}
+.news01_tit h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.news01_tit span{
+    display: inline-block;
+    float: right;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.news01_cont{
+    width: 360px;
+    height: 220px;
+}
+.news01_cont ul{
+    padding-top:30px;
+}
+.news01_cont ul li{
+    width: 360px;
+    height: 22px;
+    overflow: hidden;
+}
+.news01_cont ul li span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #525358;
+    margin-right: 10px;
+}
+
+/*底部*/
+.foot{
+    width: 100%;
+    height: 167px;
+    background: #eeeeed;
+    border-top:1px solid #c5c1c1;
+}
+.foot_cont{
+    width: 1200px;
+    height: 167px;
+    margin:0 auto;
+}
+.foot_content{
+    width: 680px;
+    height: 167px;
+    float: left;
+}
+.foot_left{
+    width: 257px;
+    height: 167px;
+    line-height: 167px;
+    float: left;
+    margin-right: 10px;
+}
+.foot_middle{
+    width: 410px;
+    height: 115px;
+    border-left:1px solid #c5c1c1;
+    float: right;
+    margin-top: 27px;
+}
+.foot_middle ul{
+    width: 410px;
+    height: 115px;
+    padding-left: 20px;
+    padding-top: 23px;
+}
+.foot_middle ul li{
+    width: 400px;
+    height: 25px;
+}
+.foot_right{
+    width: 210px;
+    height: 167px;
+    /*line-height: 167px;*/
+    margin: 20px 0;
+    float: right;
+}
+.foot_right .foot_right_one li{
+    float: left;
+    margin-left: 10px;
+}
+.foot_right_two li{
+    float: left;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 9px;
+}
+
+/*成功案例页面*/
+
+/*大背景*/
+.bgimg img{
+    width: 100%;
+}
+.address{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+.address_cont{
+    width: 1200px;
+    height: 50px;
+    margin:0 auto;
+    line-height: 50px;
+}
+.address_cont span{
+    display: inline-block;
+    color: #515050;
+}
+.bank{
+    width: 100%;
+    height: 400px;
+    background: #f0f1f1;
+}
+.bank_cont{
+    width: 1200px;
+    height: 400px;
+    margin:0 auto;
+}
+.back_left{
+    width: 600px;
+    height: 400px;
+    line-height: 400px;
+    float: left;
+}
+.bank_right{
+    width: 600px;
+    height: 400px;
+    float: right;
+}
+.bank_right h4{
+    padding-top:100px;
+}
+.fenye{
+    width: 1200px;
+    height: 130px;
+    margin:0 auto;
+}
+.fenye p{
+height: 55px;
+line-height: 55px;
+margin: 0;
+padding-top:15px;
+}
+
+/*关于我们的页面*/
+.introduce{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.content_introduce_top{
+    width: 1200px;
+    height: 125px;
+    text-align: center;
+    padding-top: 40px;
+}
+.content_introduce_top p{
+    font-size: 24px;
+}
+.content_introduce_top span{
+    color:#948f93;
+}
+.content_introduce_top p span{
+    color: #666;
+}
+.about_introduce{
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    padding-left: 160px;
+}
+.introduce_img{
+    width: 1200px;
+    height: 438px;
+    text-align: center;
+}
+
+/*小背景*/
+.smallbg img{
+    width: 100%;
+}
+.develop{
+    width: 1200px;
+    height: 660px;
+    margin: 0 auto;
+}
+.develop_cont{
+    width: 1200px;
+    height: 532px;
+    text-align: center;
+}
+.fore_img{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+}
+.fore_img ul li{
+    float: left;
+    margin-left: 23px;
+}
+
+/*联系我们的页面*/
+.content_contact{
+    width: 1200px;
+    height: 820px;
+    margin: 0 auto; 
+}
+.code_number{
+    width: 1200px;
+    height: 70px;
+}
+.code_number ul li{
+    float: left;
+    width: 400px;
+    height: 70px;
+    text-align: center;
+}
+.code_number ul li span{
+    font-size: 20px;
+    color: #005eae;
+}
+.weixin{
+    width: 1200px;
+    height: 120px;
+    padding-top: 10px;
+}
+.weixin ul li{
+    float: left;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+}
+.weixin_number{
+    width: 1200px;
+    height: 45px;
+}
+.weixin_number ul li{
+    float: left;
+    width: 400px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+.web_url{
+    width: 1200px;
+    height: 125px;
+    margin-top: 20px;
+}
+.web_url ul li{
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 130px;
+}
+.ditu{
+    width: 1200px;
+    height: 251px;
+    margin:20px auto;
+    text-align: center;
+}
+
+/*新闻资讯的页面*/
+.news_insformation{
+    width: 1200px;
+    height: 255px;
+    margin: 0 auto;
+}
+.news_three{
+    width: 506px;
+    height: 40px;
+    margin:0 auto;
+}
+.news_three ul li{
+    float: left;
+    width: 155px;
+    height: 40px;
+    border:1px solid red;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.news_three ul li a{
+    color: #8e8b8a;
+    text-decoration: none;
+}
+.news_three ul li a:hover{
+    color: #fff;
+    font-size: 20px;
+}
+.news_three ul li:hover{
+    background: red;
+}
+.news_years{
+    width: 600px;
+    height: 35px;
+    margin:0 auto;
+    padding-top: 30px;
+}
+.news_years ul li{
+    float: left;
+    width: 65px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.news_cont{
+    width: 1200px;
+    height: 710px;
+    margin:0 auto;
+    
+}
+.news_content{
+    width: 1200px;
+    height: 200px;
+    margin-top: 45px;
+}
+.news_content ul li{
+    float: left;
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid #d4d3d2;
+}
+.news_content ul li img{
+    float: left;
+}
+.news_text{
+    float: right;
+    width: 450px;
+    height: 200px;
+    padding-right: 40px;
+}
+.news_text h4{
+    color: #ca4f35;
+}
+.news_text p{
+    font-size: 13px;
+}
+.look_more{
+    width: 95px;
+    height: 30px;
+    border:1px solid #aca6a4;
+    line-height: 30px;
+    text-align: center;
+}
+.last_fenye{
+    width: 1200px;
+    height: 100px;
+    margin:0 auto;
+}
+.last_fenye ul{
+    width: 475px;
+    height: 100px;
+    margin:40px auto;
+}
+.last_fenye ul li{
+    width: 48px;
+    height: 30px;
+    border:1px solid #333;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+}
+.last_fenye ul li a{
+    color: #333;
+    text-decoration: none;
+}
+.last_fenye ul li:hover{
+    background: red;  
+}
+.last_fenye ul li a:hover{
+    color:#fff;
+}
+
+/*新闻资讯的子页面*/
+.news_child{
+    width: 1200px;
+    height: 200px;
+    margin:0 auto;
+}
+.news_child_tit{
+    width: 460px;
+    height: 60px;
+    margin:0 auto;
+    text-align: center;
+}
+.news_child_tit h4{
+    color: #cd5a3d;
+}
+.news_child_tit p{
+    font-size: 12px;
+}
+.news_child_text{
+    width: 1000px;
+    height: 190px;
+    font-size: 12px;
+    margin:0 auto;
+}
+.news_child_text span{
+    display: block;
+    padding:15px 0;
+}
+.news_child_img{
+    width: 726px;
+    height: 482px;
+    margin:0 auto;
+}
+.news_child_img img{
+    text-align: center;
+}
+.news_child_txt{
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+}
+.news_child_txt span{
+    display: block;
+    font-weight: 700;
+    padding: 20px 0;
+    text-indent: 30px;
+}
+.news_child_txt p{
+    text-indent: 30px;
+}
+
+/*成功案例子页面*/
+.example_child_tit{
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+}
+.example_child_cont{
+    width: 1200px;
+    height: 1700px;px;
+    margin: 40px auto;
+}
+.example_child_one{
+    width: 1200px;
+    height: 323px;
+}
+.example_child_left{
+    width: 756px;
+    height: 323px;
+    background: #ea8678;
+    float: left;
+}
+.example_child_right{
+    width: 444px;
+    height: 323px;
+    float: right;
+}
+.child_left_content{
+    width: 420px;
+    height: 80px;
+    margin:100px auto;
+    padding-left: 30px;
+    color: #fff;
+    border-left: 3px solid #fff;
+}
+.child_left_content h3{
+    padding-top: 13px;
+}
+.example_child_two{
+    width: 1200px;
+    height: 323px;
+    margin:20px 0;
+}
+.example_child_left2{
+    width: 444px;
+    height: 323px;
+    float: left;
+}
+.example_child_right2{
+    width: 756px;
+    height: 323px;
+    background: #78a69b;
+    float: right;
+}
